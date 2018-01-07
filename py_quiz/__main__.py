@@ -129,8 +129,10 @@ class Application(tk.Frame):
         self.radioButtonB.deselect()
         self.radioButtonC.deselect()
         self.radioButtonD.deselect()
-	
-        
+        self.selected_answer="PY_VAR4" # added random radio button in case of no answer
+
+
+
     def createWidgets(self,top):
 	'''
 	Function that creates all the necessary Tkinter widgets. All the widgets are specified here while creation.
